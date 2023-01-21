@@ -2,9 +2,8 @@ package Entry;
 
 public class CarObject {
     public static void main(String[] args) {
-        Car audi = new Car();
-        audi.model = "RS7 quatro";
-        audi.speed = 50;
+        Car audi = new Car("RS7 quatro", 50,"Olive Green");
+        audi.printInfo();
         audi.increaseSpeed(120);
         audi.printSpeed();
 
