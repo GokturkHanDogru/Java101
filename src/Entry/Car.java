@@ -4,7 +4,7 @@ public class Car {
     String colour;
     String type;
     String model;
-    int speed;
+    int  speed;
     int speedLimit;
 
     Car(String model, int speed, String colour){
